@@ -1,5 +1,5 @@
 MogModel:
-    sequence *= (Expressions)
+    sequence *= Expressions
 ;
 
 Expressions:
@@ -12,7 +12,8 @@ Title:
 
 TitleLevel:
     "¡" | "¡¡" | "¡¡¡" | "¡¡¡¡" | "¡¡¡¡¡" | "¡¡¡¡¡¡"
+;
 
 Text:
-    string*=ID
+    text*=ID
 ;
