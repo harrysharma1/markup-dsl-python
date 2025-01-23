@@ -1,0 +1,18 @@
+MogModel:
+    sequence *= (Expressions)
+;
+
+Expressions:
+    Title | Text
+;
+
+Title:
+    TitleLevel (Text)+
+;
+
+TitleLevel:
+    "¡" | "¡¡" | "¡¡¡" | "¡¡¡¡" | "¡¡¡¡¡" | "¡¡¡¡¡¡"
+
+Text:
+    string*=ID
+;
