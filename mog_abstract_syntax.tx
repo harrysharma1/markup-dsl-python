@@ -7,7 +7,7 @@ Expressions:
 ;
 
 Title:
-    TitleLevel (Text)+
+    title = TitleLevel text+=Text
 ;
 
 TitleLevel:
